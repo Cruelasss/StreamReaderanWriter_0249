@@ -44,5 +44,9 @@ int main () {
         }
         infile.close();
      }
+else cout << "unable to open the file";
+    return 0;
 
+
+}
     
