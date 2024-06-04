@@ -33,4 +33,8 @@ int main () {
 
      infile.open( namafile + ".txt", ios ::in );
 
-     
+     cout << endl << ">= membuka dan membaca file " << endl;
+
+     if (infile.is_open()) {
+
+        
