@@ -21,4 +21,10 @@ int main () {
         //Menulis dan memasukkan nila dari baris ke dalam file
         outfile << baris << endl; 
         
-     
+     }
+     //selesai dalam menulis sekarang tutup file nya 
+     outfile.close ();
+    //Membuka file dalam mode membaca
+     ifstream infile;
+//menunjuk ke sebuah file 
+   
