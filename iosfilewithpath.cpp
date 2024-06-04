@@ -27,4 +27,10 @@ int main () {
         
      }
      //selesai dalam menulis sekarang tutup file nya 
-    
+     outfile.close ();
+    //Membuka file dalam mode membaca
+     ifstream infile;
+
+     infile.open( namafile + ".txt", ios ::in );
+
+     
